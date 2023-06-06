@@ -13,19 +13,19 @@ body {
     margin-left: 27%;
 }
 
-.content h1 {
+.content p {
   position: absolute;
   transform: translate(-50%, -50%);
   font-size: 3em;
 }
 
 
-.content h1:nth-child(1) {
+.content p:nth-child(1) {
   color: transparent;
   -webkit-text-stroke: 2px #00004d;
 }
 
-.content h1:nth-child(2) {
+.content p:nth-child(2) {
   color: #00004d;
   animation: animate 5s ease-in-out infinite;
 }
@@ -44,16 +44,7 @@ body {
 
                     /*HEADER*/
 
-.work{
-    display: flex;
-    justify-content: center;
-    height: 5px;
-    padding-bottom: 2%;
-    padding-top: 4%;
-    font-size: 1.1em;
-    font-weight: bold;
-    color: #000099;
-}
+
 
 .phrase{
     margin-left: 42%;
