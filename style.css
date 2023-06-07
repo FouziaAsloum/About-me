@@ -6,14 +6,14 @@ body {
   min-height: 100vh;
 }
 
-.content{
+.name{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 27%;
 }
 
-.content h1 {
+.name p {
   position: absolute;
   transform: translate(-50%, -50%);
   font-size: 3em;
@@ -23,12 +23,12 @@ body{
   flex-direction: column;
   align-items: center;
 }
-.content h1:nth-child(1) {
+.name p:nth-child(1) {
   color: transparent;
   -webkit-text-stroke: 2px #00004d;
 }
 
-.content h1:nth-child(2) {
+.name p:nth-child(2) {
   color: #00004d;
   animation: animate 5s ease-in-out infinite;
 }
@@ -64,4 +64,110 @@ body{
     font-size: 0.9em;
     font-weight: bold;
     color: #000099;
+}
+
+
+          /* NAV */
+
+
+nav{
+  padding-top: 5px;
+}
+
+.nav-barre{
+position: relative;
+ width: calc(100% - 45px);
+ margin: 0 auto;
+ background: #000000;
+ z-index: 1;
+ text-align: center;
+ padding-right: 2%;
+}
+
+.logo{
+  width: 5%;
+  float: left;
+  text-align: left;
+  padding: 10px 25px;
+}
+
+.logo-2{
+  width: 5%;
+  float: right;
+  text-align: right;
+  padding: 10px 25px;
+}
+
+.menu li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+.menu a{
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  padding: 15px 20px;
+  font-size: 15px;
+  line-height: 20px;
+  position: relative;
+  z-index: 1;
+    text-decoration: none;    
+}
+
+.menu a:hover{
+  background: deeppink;
+  color: #fff;
+}
+
+nav:before {
+  position: absolute;
+  content: '';
+  border-top: 10px solid #333;
+  border-right: 10px solid #333;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  top: 100%;
+  left: 0;
+}
+nav:after {
+  position: absolute;
+  content: '';
+  border-top: 10px solid #333;
+  border-left: 10px solid #333;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  top: 100%;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          /* SECTION */
+
+      /* PIC */
+
+.pic img{
+  width: 300px;
+    height: 300px;
+    border-radius: 160px;
 }
