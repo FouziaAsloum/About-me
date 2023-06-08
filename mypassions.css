@@ -24,7 +24,7 @@ header {
 }
 
 .job p {
-  color: ;
+  color: #e4692e;
 }
 
 .des {
@@ -139,13 +139,43 @@ h1 {
   height: 300px;
 }
 
-.section figcaption img{
-  width: 25px;
-  height: 25px;
+      /* PASSIONS */
+
+.passions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 75%;
+  padding-top: 5%;
 }
 
-figcaption{
+
+.passion{
+  box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    text-decoration: overline;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+
+      /* FIGCAPTION */
+
+.section figcaption img {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+figcaption {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+figcaption h2{
+  display: flex;
+  align-items: center;
 }
