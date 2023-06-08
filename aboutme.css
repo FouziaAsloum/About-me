@@ -1,3 +1,7 @@
+body {
+  padding: 20px;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -6,32 +10,33 @@ header {
 }
 
 
-.job{
-  color: #f92420;
+.job {
+  color: #e0115f;
   height: 55px;
   font-size: 25px;
 }
 
-.des{
+.des {
   margin-bottom: 15px;
 }
 
-.des p{
+.des p {
   display: flex;
   align-items: center;
   font-size: 15px;
   width: 100%;
   height: 10px;
   padding-left: 5%;
-  color: darkturquoise;
+  color: mediumorchid;
 }
 
 
-      /* NAV */
+/* NAV */
 
 
 nav {
   padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 .nav-barre {
@@ -42,6 +47,7 @@ nav {
   z-index: 1;
   text-align: center;
   padding-right: 2%;
+  margin-top: -1%;
 }
 
 .logo {
@@ -78,7 +84,7 @@ nav {
 }
 
 .menu a:hover {
-  background: #f92420;
+  background: deeppink;
   color: #fff;
 }
 
@@ -102,4 +108,87 @@ nav:after {
   border-bottom: 10px solid transparent;
   top: 100%;
   right: 0;
+}
+
+          /* H1 */
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #e0115f;
+  margin-top: 1%;
+}
+
+.section{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+
+      /* HARD SKILLS */
+
+.hard-skills{
+  margin-left: -45%;
+    margin-top: 0%;
+    background-color: thistle;
+    width: 30%;
+    padding-left: 3%;
+}
+
+.hard-skills h2{
+  height: 20px;
+}
+
+.hard-skills ul{
+  padding-left: 0;
+}
+
+.hard-skills li{
+  list-style: none;
+}
+
+      /* SOFT SKILLS */
+
+.soft-skills{
+  margin-left: 40%;
+  margin-top: -5%;
+  background-color: orchid;
+}
+
+.soft-skills li{
+  list-style: none;
+}
+
+.soft-skills h2{
+  width: 50%;
+  height: 45px;
+  margin-left: 10%;
+}
+
+
+      /* SKILLS */
+
+.skills{
+  margin-left: -25%;
+  margin-top: -6%;
+}
+
+
+
+tbody tr:nth-child(odd) {
+  background-color: thistle;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e495e4;
+}
+
+tbody {
+  background-color: orchid;
+}
+
+table th{
+  background-color: whitesmoke;
 }
