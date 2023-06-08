@@ -5,6 +5,7 @@ body {
   font-size: 800;
   min-height: 100vh;
   margin: 20px;
+  padding-bottom: 0
 }
 
 .name {
@@ -206,6 +207,12 @@ footer{
   margin-top: 270px;
     background: black;
     width: 100%;
-    height: 80px;
-    border-radius: 100px;
+    height: 70px;
+    border-radius: 20px;
+}
+
+.media{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
